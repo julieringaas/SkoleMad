@@ -4,10 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Starter Template</title>
+    <title>Skolemad</title>
     <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <section class="hero grid grid-cols-1 content-start gap-4 md:grid-cols-2">
+      <div class="heading-container flex w-full items-center grid-rows-4 gap-6">
+        <h1 class="text-5xl ml-16 md:text-7xl relative">NEM OG SUND SKOLEMAD TIL DINE BØRN</h1>
+        <div class="absolute mt-80 ml-14"><button class=" bg-slate-900 hover:bg-transparent text-white font-bold py-2 px-8 rounded-full text-sm mb-4 hover:border-slate-900">
+          Bestil
+        </button>
+        <button class="   bg-transparent hover:bg-slate-900 text-slate-900 font-semibold hover:text-white py-2 px-5 border border-slate-900 hover:border-transparent rounded-full text-sm">
+          Registrer
+        </button>
+        </div>
+      </div>
+      <img  src="./img/food10.png" alt="food illustration" class="relative -mt-40 md:mt-10" />
+      
+    </section>
+
+    <a href="#howitworks" class="cursor-pointer"><img src="./img/arrow.png" alt="arrow" class="relative w-11 m-auto mb-20" /></a>
+
+    <div class="line-1"></div>
+    
+      <h1 class="inline-block align-middle mt-14" id="howitworks">SÅDAN FUNGERER DET</h1>
+      <section class="m-28 grid grid-cols-1 content-start gap-4 md:grid-cols-5">
+      <div class="m-16">
+        <img src="./img/register.png" alt="register" class="mb-5 m-auto w-28" />
+        <h3>REGISTRER</h3>
+        <p class="align-baseline">Opret en konto, registrer dine børn</p>
+      </div>
+      <div><img src="./img/arrow.png" alt="arrow" class="relative m-auto w-11 md:-rotate-90 md:mt-40" /></div>
+      <div class="m-16">
+        <img src="./img/choose menu.png" alt="register" class="mb-5 m-auto w-36" />
+        <h3>VÆLG MENU</h3>
+        <p class="align-baseline ">Velg mellem vegetarisk eller ikke-vegetarisk.</p>
+      </div>
+
+      <div><img src="./img/arrow.png" alt="arrow" class="relative m-auto w-11 md:-rotate-90 md:mt-40" /></div>
+      <div class="m-16">
+        <img src="./img/bestil.png" alt="register" class="m-auto mb-5 w-24" />
+        <h3>BESTIL</h3>
+        <p class="align-baseline">Bestil og betal. Hurtig og nemt</p>
+    </section>
+
     <script type="module" src="index.js"></script>
   </body>
 </html>

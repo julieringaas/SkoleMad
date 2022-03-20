@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .hero img {
+  height: 65vh;
+  width: auto;
+} */
+
+body {
+  background-color: #e5e5e5;
+}
+
+.heading-container {
+  height: 65vh;
+  top: -50px;
+}
+
+.line-1 {
+  height: 1px;
+  background: black;
+}
+
+@layer base {
+  html {
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    font-family: "Atma", cursive;
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
