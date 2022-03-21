@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skolemad</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- Desktop navigation starts here -->
+<div class="invisible md:visible">
+  <div class="navbar bg-transparent">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl -ml-36"> <img src="./img/logo_black_strokes.png" alt="logo" width="10%">  SkoleMad</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal p-0">
+        <li><a href="madkalender.html">Menu</a></li>
+        <li><a>Bestil</a></li>
+        <li><a>Min profil</a></li>
+        <li><a>Login</a></li>
+        <li tabindex="0">
+          <a>
+            <div class="pr-16">
+              <div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+</div>
+            
+          </a>
+          <ul class="p-2 bg-base-100">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Desktop navigation ends here -->
+
+    <!--Nav mobile starts ends here-->
+
+   <div class="visible md:invisible">
+    <div class="navbar bg-transparent -mt-10">
+      <div>
+        <a href="index.html"class="btn btn-ghost normal-case text-xl -ml-48"> <img src="./img/logo_black_strokes.png" alt="logo" width="10%">  SkoleMad</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal p-0">
+        
+          <li tabindex="0">
+            <a>
+              <div>
+              <div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+</div>
+              
+            </a>
+            <ul class="p-2 bg-base-100">
+              <li><a>Submenu 1</a></li>
+              <li><a>Submenu 2</a></li>
+              <li><a>Submenu 1</a></li>
+              <li><a>Submenu 2</a></li>
+            </ul>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--Nav mobile ends here-->
+
+    <!-- body starts here -->
+  <body>
+
+  
+        <h1 class="text-4xl ml-20 md:text-5xl md:ml-44 mb-32 mt-32 max-w-xs">REGISTRER DINE BØRN</h1>
+   
+
+    <!-- FORM - PERSONALIA START -->
+
+    
+
+        
+        <div class="form-control w-full max-w-xs mb-2 ml-20 md:ml-44">
+            <h2 class="font-bold">PERSONALIA</h2>
+            <label class="label">
+              <span class="label-text font-bold">Fornavn</span>
+    
+            </label>
+            <input type="text" placeholder="Type here" class="bg-transparent input input-bordered w-52 max-w-xs rounded-full">
+            <label class="label">
+             
+            </label>
+          
+          <div class="form-control w-full max-w-xs mb-2">
+            <label class="label">
+              <span class="label-text font-bold">Efternavn</span>
+    
+            </label>
+            <input type="text" placeholder="Type here" class="bg-transparent input input-bordered w-52 max-w-xs rounded-full">
+            <label class="label">
+             
+            </label>
+          </div>
+        </div>
+        </div>
+       </div>
+          <div class="form-control w-full max-w-xs mb-2 ml-20 md:ml-44">
+            <label class="label">
+              <span class="label-text font-bold">Fødselsdato</span>
+    
+            </label>
+            <input type="text" placeholder="Type here" class="bg-transparent input input-bordered w-52 max-w-xs rounded-full">
+            <label class="label">
+             
+            </label>
+          </div>
+
+          
+          
+<!-- FORM - PERSONALIA ENDS -->
+
+<!-- FORM - VÆLG SKOLE START -->
+
+<div class="ml-20">
+<select class=" select select-bordered w-52 max-w-xs rounded-full bg-transparent md:ml-24">
+    <option disabled selected>Vælg skole</option>
+    <option>Kalvebod Skole</option>
+    <option>Absalons Skole</option>
+    <option>Amager Fælled Skole</option>
+    <option>Europaskolen</option>
+    <option>Engskolen</option>
+    <option>Frederiksgård Skole</option>
+  </select>
+</div>
+
+              <!-- FORM - VÆLG SKOLE ENDS -->
+
+             <!-- FORM - DIET STARTS -->
+             
+             <div class="form-control w-80 ml-20 md:ml-44">
+                <h2 class="font-bold mt-7">MENU</h2>
+                <label class="label cursor-pointer">
+                  <span class="label-text">Vegetar</span> 
+                  <input type="checkbox"  class="checkbox">
+                  <span class="label-text">Ikke-vegetar</span> 
+                  <input type="checkbox" class="checkbox">
+                </label>
+                
+              </div>
+
+             <!-- FORM - DIET ENDS -->
+              <!-- FORM - ALLERGIES STARTS -->
+
+             
+             <div class="form-control w-80 ml-20 md:ml-44 ">
+                <h2 class="font-bold mt-7">ALLERGIER</h2>
+                <label class="label cursor-pointer">
+                  <span class="label-text">Laktose</span> 
+                  <input type="checkbox"  class="checkbox">
+                  <span class="label-text">Æg</span> 
+                  <input type="checkbox"  class="checkbox">
+                  <span class="label-text">Nødder</span> 
+                  <input type="checkbox"  class="checkbox">
+                  <span class="label-text">Gluten</span> 
+                  <input type="checkbox"  class="checkbox">
+                </label>
+                
+              </div>
+
+              <!-- FORM - ALLERGIES ENDS -->
+
+              
+              <div class="form-control w-40 ml-20 md:ml-44">
+                <h2 class="font-bold mt-7">MÅNEDLIG AFTALE</h2>
+                 <label class="label cursor-pointer">
+                   <span class="label-text">JA</span> 
+                   <input type="checkbox"  class="checkbox">
+                   <span class="label-text">NEJ</span> 
+                   <input type="checkbox"  class="checkbox">
+            
+                 </label>
+                 
+               </div>
+
+               
+               <input type="button" onclick="myFunction()" value="Submit" class="btn mt-10 ml-20 border-none bg-slate-900 hover:bg-footer-purple text-white font-bold py-1 px-8 rounded-full text-xs mb-4 md:ml-44 ">
+               <div class="invisible"
+               <h2>Thank you!</h2>
+            </div>
+            
+              </button>
+
+
+    
+
+    <!-- body ends here -->
+
+    <!-- footer starts here -->
+     
+    <footer class="footer p-20 text-base-content bg-footer-purple">
+      <div>
+        <img width="90" height="90" viewBox="0 0 24 24" src="img/logo_white_strokes.png" alt="picture" />
+      </div> 
+      <div class="text-white">
+        <span class="text-xl font-extralight">Har du spørgsmal?</span> 
+        <p class="pb-4 font-extralight">Send os gerne dine spørgsmal eller tilbagemeldinger.</p>
+        <a href="#" class="bg-white hover:bg-gray-200 text-black text-center font-bold text-xs py-3 px-7 rounded-full">
+          Skriv til os
+        </a>
+      
+      
+      </div> 
+      <div class="text-white font-extralight">
+        <span class="text-xl">Kontakt</span>  
+        <p>Skolemad ApS</p> 
+        <p>Klaringen 15, 4174 Jystrup</p> 
+        <p>+45 70222910</p> 
+        <p>post@skolemad</p>
+      </div> 
+
+    </footer>
+  
+
+    <!-- footer ends here -->
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
