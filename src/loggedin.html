@@ -98,125 +98,115 @@
 
   <!-- body starts here -->
   <body>
-    <div class="ml-32 flex h-screen items-center">
-      <card class="flex w-72 flex-col rounded-lg border bg-white p-5 shadow-md">
-        <!-- Top Section -->
-        <div class="flex flex-col">
-          <!-- Quota Name and Details -->
-          <h1 class="text-h1-and-buttons max-w-xs text-4xl md:text-5xl">
-            Login
-          </h1>
-          <p class="text-md mt-1 font-light text-gray-700">
-            Log ind for at begynde at bestille din skolemad!
-          </p>
-
-          <!-- Button -->
+    <section class="hero grid grid-cols-1 content-start gap-10 md:grid-cols-2">
+      <div class="heading-container flex w-full grid-rows-4 items-center gap-6">
+        <h1 class="text-h1-and-buttons relative ml-16 text-5xl md:text-7xl">
+          VELKOMMEN TILBAGE, ANDREW!
+        </h1>
+        <div class="absolute mt-80 ml-14">
           <button
-            class="mt-10 rounded bg-blue-500 py-2 px-4 text-sm text-white hover:bg-blue-700 hover:text-gray-50"
+            class="bg-h1-and-buttons mb-4 rounded-full py-2 px-8 text-sm font-bold text-white hover:border-slate-900 hover:bg-transparent"
           >
-            IDR 43,000 / month
+            Bestil her
           </button>
-
-          <!-- Additional Offer -->
-          <p class="mt-4 text-sm font-light text-gray-700">Or prepay anually</p>
-          <p class="text-sm font-light text-gray-800">(save 17%):</p>
-          <p class="mt-4 text-sm text-blue-600">IDR 430,000 / month</p>
-
-          <!-- Line -->
-          <div class="my-5 h-0.5 w-full bg-gray-200"></div>
         </div>
+      </div>
+      <img
+        src="./img/food10.png"
+        alt="food illustration"
+        class="-mt-56 -ml-14 max-w-2xl md:absolute"
+      />
+    </section>
 
-        <!-- Bottom Section -->
-        <div class="flex flex-col px-3">
-          <p class="text-sm font-light text-gray-700">Google One includes</p>
+    <a href="#howitworks" class="cursor-pointer"
+      ><img
+        src="./img/arrow.png"
+        alt="arrow"
+        class="relative m-auto mb-20 w-11"
+    /></a>
 
-          <div class="mt-3 grid grid-cols-5 gap-y-2">
-            <!-- Details 1 -->
-            <div class="pl-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#2563eb"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
-            </div>
-            <div class="col-span-4 text-sm font-light text-gray-700">
-              200 GB storage
-            </div>
+    <div class="line-1"></div>
 
-            <!-- Details 2 -->
-            <div class="pl-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#2563eb"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
-            </div>
-            <div class="col-span-4 text-sm font-light text-gray-700">
-              Access to Google experts
-            </div>
+    <h1 class="text-h1-and-buttons mt-20 ml-36 mb-10 md:ml-96 md:pl-48">
+      MADKALENDER
+    </h1>
 
-            <!-- Details 3 -->
-            <div class="pl-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#2563eb"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
-            </div>
-            <div class="col-span-4 text-sm font-light text-gray-700">
-              Share with up to 5 others
-            </div>
+    <div class="ml-36 md:ml-96 md:pl-52">
+      <button
+        class="bg-footer-purple mb-4 rounded-full py-2 px-8 text-sm font-bold text-white hover:border-slate-900 hover:bg-transparent hover:bg-indigo-600"
+      >
+        Andrew
+      </button>
 
-            <!-- Details 4 -->
-            <div class="pl-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#2563eb"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
-            </div>
-            <div class="col-span-4 text-sm font-light text-gray-700">
-              Extra member benefits
-            </div>
-          </div>
+      <button
+        class="border-footer-purple text-footer-purple mb-4 rounded-full border-2 bg-none py-2 px-8 text-sm font-bold hover:border-indigo-600 hover:bg-transparent hover:text-indigo-600"
+      >
+        James
+      </button>
+    </div>
+
+    <div class="-ml-10 md:ml-80">
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">Denne ugens menu</div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
         </div>
-      </card>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">
+          28. marts - 01. april
+        </div>
+        <div class="collapse-content m-auto">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">04. april - 8. april</div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">
+          11. april - 15. april
+        </div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">
+          18. april - 22. april
+        </div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
     </div>
 
     <!-- body ends here -->
@@ -224,7 +214,7 @@
     <!-- footer starts here -->
 
     <footer class="footer text-base-content bg-footer-purple p-20">
-      <div>
+      <div class="invisible ml-20 md:visible">
         <img
           width="90"
           height="90"
@@ -233,7 +223,7 @@
           alt="picture"
         />
       </div>
-      <div class="text-white">
+      <div class="-mt-44 text-white md:-mt-0">
         <span class="text-xl font-extralight">Har du spørgsmal?</span>
         <p class="pb-4 font-extralight">
           Send os gerne dine spørgsmal eller tilbagemeldinger.
@@ -245,7 +235,7 @@
           Skriv til os
         </a>
       </div>
-      <div class="font-extralight text-white">
+      <div class="-mt-14 font-extralight text-white md:-mt-0">
         <span class="text-xl">Kontakt</span>
         <p>Skolemad ApS</p>
         <p>Klaringen 15, 4174 Jystrup</p>
