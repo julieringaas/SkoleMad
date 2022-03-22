@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         "footer-purple": "#8D92FF",
+        "h1-and-buttons": "#1F2937",
       },
     },
   },
