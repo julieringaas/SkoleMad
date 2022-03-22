@@ -20,166 +20,229 @@
     />
   </head>
   <!-- Desktop navigation starts here -->
-<div class="invisible md:visible">
-  <div class="navbar bg-transparent">
-    <div class="flex-1">
-      <a href="index.html" class="btn btn-ghost normal-case text-xl -ml-36"> <img src="./img/logo_black_strokes.png" alt="logo" width="10%">  SkoleMad</a>
-    </div>
-    <div class="flex-none">
-      <ul class="menu menu-horizontal p-0">
-        <li><a href="madkalender.html">Menu</a></li>
-        <li><a>Bestil</a></li>
-        <li><a>Min profil</a></li>
-        <li><a>Login</a></li>
-        <li tabindex="0">
-          <a>
-            <div class="pr-16">
-              <div class="line1"></div>
-<div class="line2"></div>
-<div class="line3"></div>
-</div>
-            
-          </a>
-          <ul class="p-2 bg-base-100">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-   <!-- Desktop navigation ends here -->
-
-    <!--Nav mobile starts ends here-->
-
-   <div class="visible md:invisible">
-    <div class="navbar bg-transparent -mt-10">
-      <div>
-        <a class="btn btn-ghost normal-case text-xl -ml-48"> <img src="./img/logo_black_strokes.png" alt="logo" width="10%">  SkoleMad</a>
+  <div class="invisible md:visible">
+    <div class="navbar bg-transparent">
+      <div class="flex-1">
+        <a href="index.html" class="btn btn-ghost -ml-36 text-xl normal-case">
+          <img src="./img/logo_black_strokes.png" alt="logo" width="10%" />
+          SkoleMad</a
+        >
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal p-0">
-        
+          <li><a href="login.html">Login</a></li>
+          <li>
+            <a href="madkalender.html">
+              <img src="./img/profile_icon.png" alt="logo" width="30%" />
+            </a>
+          </li>
+
+          <li class="-ml-10" tabindex="0">
+            <a>
+              <div class="pr-16">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </a>
+            <ul class="bg-base-100 p-2">
+              <li><a>Leverandør</a></li>
+              <li><a>Priser</a></li>
+              <li><a>Skoler</a></li>
+              <li><a>Indstillinger</a></li>
+              <li><a>Kontakt os</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Desktop navigation ends here -->
+
+  <!--Nav mobile starts ends here-->
+
+  <div class="visible md:invisible">
+    <div class="navbar -mt-10 bg-transparent">
+      <div>
+        <a href="index.html" class="btn btn-ghost -ml-48 text-xl normal-case">
+          <img src="./img/logo_black_strokes.png" alt="logo" width="10%" />
+          SkoleMad</a
+        >
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal p-0">
           <li tabindex="0">
             <a>
               <div>
-              <div class="line1"></div>
-<div class="line2"></div>
-<div class="line3"></div>
-</div>
-              
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
             </a>
-            <ul class="p-2 bg-base-100">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+            <ul class="bg-base-100 p-2">
+              <li><a>Profil</a></li>
+              <li><a>Login</a></li>
+              <li><a>Leverandør</a></li>
+              <li><a>Priser</a></li>
+              <li><a>Skoler</a></li>
+              <li><a>Indstillinger</a></li>
+              <li><a>Kontakt os</a></li>
             </ul>
           </li>
-        
         </ul>
       </div>
     </div>
   </div>
   <!--Nav mobile ends here-->
 
-    <!-- body starts here -->
-    <h1 class="mt-20 ml-36 mb-20 md:ml-96 md:pl-48 text-h1-and-buttons">Madkalender</h1>
+  <!-- body starts here -->
+  <body>
+    <section class="hero grid grid-cols-1 content-start gap-10 md:grid-cols-2">
+      <div class="heading-container flex w-full grid-rows-4 items-center gap-6">
+        <h1 class="text-h1-and-buttons relative ml-16 text-5xl md:text-7xl">
+          VELKOMMEN TILBAGE, ANDREW!
+        </h1>
+        <div class="absolute mt-80 ml-14">
+          <button
+            class="bg-h1-and-buttons mb-4 rounded-full py-2 px-8 text-sm font-bold text-white hover:border-slate-900 hover:bg-transparent"
+          >
+            Bestil her
+          </button>
+        </div>
+      </div>
+      <img
+        src="./img/food10.png"
+        alt="food illustration"
+        class="-mt-56 -ml-14 max-w-2xl md:absolute"
+      />
+    </section>
 
-    <div class="-ml-10 md:ml-80 	">
-      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md ">
+    <a href="#howitworks" class="cursor-pointer"
+      ><img
+        src="./img/arrow.png"
+        alt="arrow"
+        class="relative m-auto mb-20 w-11"
+    /></a>
+
+    <div class="line-1"></div>
+
+    <h1 class="text-h1-and-buttons mt-20 ml-36 mb-10 md:ml-96 md:pl-48">
+      MADKALENDER
+    </h1>
+
+    <div class="ml-36 md:ml-96 md:pl-52">
+      <button
+        class="bg-footer-purple mb-4 rounded-full py-2 px-8 text-sm font-bold text-white hover:border-slate-900 hover:bg-transparent hover:bg-indigo-600"
+      >
+        Andrew
+      </button>
+
+      <button
+        class="border-footer-purple text-footer-purple mb-4 rounded-full border-2 bg-none py-2 px-8 text-sm font-bold hover:border-indigo-600 hover:bg-transparent hover:text-indigo-600"
+      >
+        James
+      </button>
+    </div>
+
+    <div class="-ml-10 md:ml-80">
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
         <input type="checkbox" />
         <div class="collapse-title text-lg font-bold">Denne ugens menu</div>
         <div class="collapse-content">
-            <p>Mandag: Pasta, brød</p>
-            <p>Tirsdag: Poteter, sanwich</p>
-            <p>Onsdag: Salad, dessert</p>
-            <p>Torsdag: Lasagne, brød, snacks</p>
-            <p>Fredag: Tortilla, dessert. </p>
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
         </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">
+          28. marts - 01. april
         </div>
-        <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
-            <input type="checkbox" />
-            <div class="collapse-title text-lg font-bold">28. marts - 01. april </div>
-            <div class="collapse-content m-auto">
-                <p>Mandag: Pasta, brød</p>
-                <p>Tirsdag: Poteter, sanwich</p>
-                <p>Onsdag: Salad, dessert</p>
-                <p>Torsdag: Lasagne, brød, snacks</p>
-                <p>Fredag: Tortilla, dessert. </p>
-            </div>
-            </div>
-            <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
-                <input type="checkbox" />
-                <div class="collapse-title text-lg font-bold">04. april - 8. april</div>
-                <div class="collapse-content">
-                    <p>Mandag: Pasta, brød</p>
-                    <p>Tirsdag: Poteter, sanwich</p>
-                    <p>Onsdag: Salad, dessert</p>
-                    <p>Torsdag: Lasagne, brød, snacks</p>
-                    <p>Fredag: Tortilla, dessert. </p>
-                </div>
-                </div>
-                <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
-                    <input type="checkbox" />
-                    <div class="collapse-title text-lg font-bold">11. april - 15. april</div>
-                    <div class="collapse-content">
-                        <p>Mandag: Pasta, brød</p>
-                        <p>Tirsdag: Poteter, sanwich</p>
-                        <p>Onsdag: Salad, dessert</p>
-                        <p>Torsdag: Lasagne, brød, snacks</p>
-                        <p>Fredag: Tortilla, dessert. </p>
-                    </div>
-                    </div>
-                    <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
-                        <input type="checkbox" />
-                        <div class="collapse-title text-lg font-bold">18. april - 22. april</div>
-                        <div class="collapse-content">
-                            <p>Mandag: Pasta, brød</p>
-                            <p>Tirsdag: Poteter, sanwich</p>
-                            <p>Onsdag: Salad, dessert</p>
-                            <p>Torsdag: Lasagne, brød, snacks</p>
-                            <p>Fredag: Tortilla, dessert. </p>
-                        </div>
-                        </div>
-                    </div>
-       
-
+        <div class="collapse-content m-auto">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">04. april - 8. april</div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">
+          11. april - 15. april
+        </div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+      <div tabindex="0" class="collapse collapse-arrow ml-44 mb-6 max-w-md">
+        <input type="checkbox" />
+        <div class="collapse-title text-lg font-bold">
+          18. april - 22. april
+        </div>
+        <div class="collapse-content">
+          <p>Mandag: Pasta, brød</p>
+          <p>Tirsdag: Poteter, sanwich</p>
+          <p>Onsdag: Salad, dessert</p>
+          <p>Torsdag: Lasagne, brød, snacks</p>
+          <p>Fredag: Tortilla, dessert.</p>
+        </div>
+      </div>
+    </div>
 
     <!-- body ends here -->
 
     <!-- footer starts here -->
-     
-   
-    <footer class="footer p-20 text-base-content bg-footer-purple">
+
+    <footer class="footer text-base-content bg-footer-purple p-20">
       <div>
-        <img width="90" height="90" viewBox="0 0 24 24" src="img/logo_white_strokes.png" alt="picture" />
-      </div> 
+        <img
+          width="90"
+          height="90"
+          viewBox="0 0 24 24"
+          src="img/logo_white_strokes.png"
+          alt="picture"
+        />
+      </div>
       <div class="text-white">
-        <span class="text-xl font-extralight">Har du spørgsmal?</span> 
-        <p class="pb-4 font-extralight">Send os gerne dine spørgsmal eller tilbagemeldinger.</p>
-        <a href="#" class="bg-white hover:bg-gray-200 text-black text-center font-bold text-xs py-3 px-7 rounded-full">
+        <span class="text-xl font-extralight">Har du spørgsmal?</span>
+        <p class="pb-4 font-extralight">
+          Send os gerne dine spørgsmal eller tilbagemeldinger.
+        </p>
+        <a
+          href="#"
+          class="rounded-full bg-white py-3 px-7 text-center text-xs font-bold text-black hover:bg-gray-200"
+        >
           Skriv til os
         </a>
-      
-      
-      </div> 
-      <div class="text-white font-extralight">
-        <span class="text-xl">Kontakt</span>  
-        <p>Skolemad ApS</p> 
-        <p>Klaringen 15, 4174 Jystrup</p> 
-        <p>+45 70222910</p> 
+      </div>
+      <div class="font-extralight text-white">
+        <span class="text-xl">Kontakt</span>
+        <p>Skolemad ApS</p>
+        <p>Klaringen 15, 4174 Jystrup</p>
+        <p>+45 70222910</p>
         <p>post@skolemad</p>
-      </div> 
-
+      </div>
     </footer>
-  
 
     <!-- footer ends here -->
 
