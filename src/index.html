@@ -18,83 +18,52 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-  </head>
-  <!-- Desktop navigation starts here -->
-  <div class="invisible md:visible">
-    <div class="navbar bg-transparent">
-      <div class="flex-1">
-        <a href="index.html" class="btn btn-ghost -ml-36 text-xl normal-case">
-          <img src="./img/logo_black_strokes.png" alt="logo" width="10%" />
-          SkoleMad</a
+    <!-- Material Icon CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <!-- Navigation starts here -->
+  
+
+    <div class="flex p-4 navbar-end w-full  ">
+      <div class="flex-1 justify-start">
+        <a href="index.html">
+          <img src="./img/logo_black_strokes.png" alt="logo" class="w-36" />
+          </a
         >
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal p-0">
-          <li><a href="login.html">Login</a></li>
+          <li class="invisible md:visible"><a href="login.html">Login</a></li>
           <li>
             <a href="madkalender.html">
-              <img src="./img/profile_icon.png" alt="logo" width="30%" />
+              <img src="./img/profile_icon.png" alt="logo" class="w-6 invisible md:visible mr-10" />
             </a>
           </li>
 
-          <li class="-ml-10" tabindex="0">
+          <li class="" tabindex="0">
             <a>
-              <div class="pr-16">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+              <div class="pr-16 ">
+                <i class="menuIcon material-icons md:mr-0 -mr-28">menu</i>
               </div>
             </a>
-            <ul class="bg-base-100 p-2">
-              <li><a>Leverandør</a></li>
-              <li><a>Priser</a></li>
-              <li><a>Skoler</a></li>
-              <li><a href="indstillinger.html">Indstillinger</a></li>
-              <li><a>Kontakt os</a></li>
+          
+            <ul class="bg-base-100 p-2 z-50 ">
+              <li class="md:invisible hover:text-footer-purple"><a href="madkalender.">Profil</a></li>
+              <li class="md:invisible hover:text-footer-purple"><a href="login.html">Login</a></li>
+              <li class="md:-mt-24 hover:text-footer-purple"><a>Leverandør</a></li>
+              <li class=" hover:text-footer-purple"><a>Priser</a></li>
+              <li class=" hover:text-footer-purple"><a>Skoler</a></li>
+              <li class=" hover:text-footer-purple"><a href="indstillinger.html">Indstillinger</a></li>
+              <li class="hover:text-footer-purple"><a>Kontakt os</a></li>
             </ul>
           </li>
         </ul>
+        
       </div>
     </div>
   </div>
+  <!-- Navigation ends here -->
 
-  <!-- Desktop navigation ends here -->
-
-  <!--Nav mobile starts ends here-->
-
-  <div class="visible md:invisible">
-    <div class="navbar -mt-10 bg-transparent">
-      <div>
-        <a href="index.html" class="btn btn-ghost -ml-48 text-xl normal-case">
-          <img src="./img/logo_black_strokes.png" alt="logo" width="10%" />
-          SkoleMad</a
-        >
-      </div>
-      <div class="flex-none">
-        <ul class="menu menu-horizontal p-0">
-          <li tabindex="0">
-            <a>
-              <div>
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-              </div>
-            </a>
-            <ul class="bg-base-100 p-2">
-              <li><a>Profil</a></li>
-              <li><a>Login</a></li>
-              <li><a>Leverandør</a></li>
-              <li><a>Priser</a></li>
-              <li><a>Skoler</a></li>
-              <li><a href="indstillinger.html">Indstillinger</a></li>
-              <li><a>Kontakt os</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!--Nav mobile ends here-->
 
     <!-- body starts here -->
   <body>

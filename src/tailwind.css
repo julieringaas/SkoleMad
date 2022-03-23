@@ -69,3 +69,7 @@ button:focus {
   background-color: black;
   margin: 6px 0;
 }
+
+.logo {
+  font-family: "Atma", cursive;
+}
