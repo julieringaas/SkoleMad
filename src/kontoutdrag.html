@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skolemad</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.1/dist/flowbite.min.css" />
+      <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+    <!-- Navigation starts here -->
+    
+  
+      <div class="flex p-4 navbar-end w-full  ">
+        <div class="flex-1 justify-start">
+          <a href="index.html">
+            <img src="./img/logo_black_strokes.png" alt="logo" class="w-36" />
+            </a
+          >
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li class="invisible md:visible"><a href="login.html">Login</a></li>
+            <li>
+              <a href="madkalender.html">
+                <img src="./img/profile_icon.png" alt="logo" class="w-6 invisible md:visible mr-10" />
+              </a>
+            </li>
+  
+            <li class="" tabindex="0">
+              <a>
+                <div class="pr-16 ">
+                  <i class="menuIcon material-icons md:mr-0 -mr-28">menu</i>
+                </div>
+              </a>
+            
+              <ul class="bg-base-100 p-2 z-50 ">
+                <li class="md:invisible hover:text-footer-purple"><a href="./madkalender.html">Profil</a></li>
+                <li class="md:invisible hover:text-footer-purple"><a href="login.html">Login</a></li>
+                <li class="md:-mt-24 hover:text-footer-purple"><a>Leverandør</a></li>
+                <li class=" hover:text-footer-purple"><a>Priser</a></li>
+                <li class=" hover:text-footer-purple"><a>Skoler</a></li>
+                <li class=" hover:text-footer-purple"><a href="indstillinger.html">Indstillinger</a></li>
+                <li class="hover:text-footer-purple"><a>Kontakt os</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Navigation ends here -->
+     
+   
+
+  <!-- body starts here -->
+  <body>
+    <h1 class="text-4xl ml-16 md:text-5xl md:ml-44 mb-10 mt-32 max-w-xs text-h1-and-buttons font-bold">KONTOUDRAG</h1>
+       
+  
+    </section>
+
+<div>
+    <div class="form-control w-full max-w-xs grid grid-cols-2 gap-4 ml-10 md:ml-44">
+      <div>
+      <label class="label">
+        <span class="label-text">Fra dato</span>
+        
+      </label>
+      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs">
+      <label class="label">
+
+      </label>
+      </div>
+      <div>
+      <label class="label">
+        <span class="label-text">Til dato</span>
+        
+      </label>
+      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs">
+      <label class="label">
+
+      </label>
+    </div>
+  </div>
+
+    <div tabindex="0" class="collapse">
+      <input type="checkbox"> 
+      <div class="collapse-title text-xl font-medium">
+        <button class="border-2 bg-h1-and-buttons w-36 h-11 text-white text-xs rounded-full ml-5 md:ml-40">Hent kontoudskrift</button>
+      </div>
+      <div class="collapse-content"> 
+      
+   
+
+
+    <div class="overflow-x-auto md:ml-40">
+      <table class="table table-zebra w-64 text-slate-600">
+        <!-- head -->
+        <thead>
+          <tr>
+            
+            <th>Dato</th>
+            <th>KØB</th>
+            <th>BELØB</th>
+            <th>BETALINGSMETODE</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <!-- row 1 -->
+          <tr class="text-slate-700">
+            
+            <td>01/01-21</td>
+            <td>Januar, James</td>
+            <td class="text-red-500">230,-</td>
+            <td>MobilePay</td>
+          </tr>
+          <!-- row 2 -->
+          <tr>
+            
+            <td>01/02-21</td>
+            <td>Februar, Alexander</td>
+            <td class="text-red-500">230,-</td>
+            <td>Dankort</td>
+          </tr>
+          <!-- row 3 -->
+          <tr>
+            
+            <td>01/03-21</td>
+            <td>Marts, Alexander</td>
+            <td class="text-red-500">230,-</td>
+            <td>Dankort</td>
+          </tr>
+          <!-- row 4 -->
+          <tr>
+            
+            <td>01/04-21</td>
+            <td>April, Alexander</td>
+            <td class="text-red-500">230,-</td>
+            <td>MobilePay</td>
+          </tr>
+               <!-- row 5 -->
+               <tr>
+            
+                <td>01/05-21</td>
+                <td>Maj, Alexander</td>
+                <td class="text-red-500">230,-</td>
+                <td>MobilePay</td>
+              </tr>
+                   <!-- row 6 -->
+          <tr>
+            
+            <td>01/06-21</td>
+            <td>Juni, Alexander</td>
+            <td class="text-red-500">230,-</td>
+            <td>MobilePay</td>
+          </tr>
+               <!-- row 7 -->
+               <tr>
+            
+                <td>01/07-21</td>
+                <td>Juli, Alexander</td>
+                <td class="text-red-500">230,-</td>
+                <td>MobilePay</td>
+              </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+    </div>
+
+
+
+  
+
+
+
+
+    <!-- body ends here -->
+
+    <!-- footer starts here -->
+
+  
+     
+
+    <footer class="footer p-20 text-base-content bg-footer-purple">
+      <div class="invisible md:visible ml-20">
+      <img width="90" height="90" viewBox="0 0 24 24" src="img/logo_white_strokes.png" alt="picture" />
+      </div>
+      <div class="text-white -mt-44 md:-mt-0">
+      <span class="text-xl font-extralight">Har du spørgsmal?</span>
+      <p class="pb-4 font-extralight">Send os gerne dine spørgsmal eller tilbagemeldinger.</p>
+      <a href="#" class="bg-white hover:bg-gray-200 text-black text-center font-bold text-xs py-3 px-7 rounded-full">
+      Skriv til os
+      </a>
+      </div>
+      <div class="text-white font-extralight -mt-14 md:-mt-0">
+      <span class="text-xl">Kontakt</span>
+      <p>Skolemad ApS</p>
+      <p>Klaringen 15, 4174 Jystrup</p>
+      <p>+45 70222910</p>
+      <p>post@skolemad</p>
+      </div>
+      
+      </footer>
+
+    <!-- footer ends here -->
+
+    <script type="module" src="index.js"></script>
+
+  </body>
+</html>
