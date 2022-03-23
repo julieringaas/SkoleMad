@@ -33,6 +33,12 @@ body {
     font-size: 2.4rem;
   }
 
+  h2 {
+    font-family: "Atma", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
   h3 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
