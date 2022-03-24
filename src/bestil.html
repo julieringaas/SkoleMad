@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skolemad</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Material Icon CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <!-- Navigation starts here -->
+  
+
+    <div class="flex p-4 navbar-end w-full  ">
+      <div class="flex-1 justify-start">
+        <a href="index.html">
+          <img src="./img/logo_black_strokes.png" alt="logo" class="w-36" />
+          </a
+        >
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal p-0">
+          <li class="invisible md:visible"><a href="login.html">Login</a></li>
+          <li>
+            <a href="madkalender.html">
+              <img src="./img/profile_icon.png" alt="logo" class="w-6 invisible md:visible mr-10" />
+            </a>
+          </li>
+
+          <li class="" tabindex="0">
+            <a>
+              <div class="pr-16 ">
+                <i class="menuIcon material-icons md:mr-0 -mr-28">menu</i>
+              </div>
+            </a>
+          
+            <ul class="bg-base-100 p-2 z-50 ">
+              <li class="md:invisible hover:text-footer-purple"><a href="./madkalender.html">Profil</a></li>
+              <li class="md:invisible hover:text-footer-purple"><a href="login.html">Login</a></li>
+              <li class="md:-mt-24 hover:text-footer-purple"><a>Leverandør</a></li>
+              <li class=" hover:text-footer-purple"><a>Priser</a></li>
+              <li class=" hover:text-footer-purple"><a>Skoler</a></li>
+              <li class=" hover:text-footer-purple"><a href="indstillinger.html">Indstillinger</a></li>
+              <li class="hover:text-footer-purple"><a>Kontakt os</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Navigation ends here -->
+   <!-- body starts here -->
+   <body>
+
+
+    <div class="flex flex-wrap overflow-hidden">
+    
+      <div class="w-full overflow-hidden lg:w-5/12">
+    
+        <div class="h-screen flex items-center ml-32 ">
+    
+            <card class=" h-5/6 mt-20 mb-20 sm:w-full overflow-scroll rounded-2xl border shadow-md flex flex-col p-5 bg-white">
+          
+              <!-- Top Section -->
+              <div class="flex flex-col">
+          
+                <!-- Login and Details -->
+                <h1 class="text-4xl md:text-5xl max-w-xs text-h1-and-buttons pt-10">Betal</h1>
+                <p class="mt-1 text-md font-normal text-black pt-5"> 
+                    Børn* </p>
+    
+                    <div class="flex flex-wrap overflow-hidden lg:-mx-3">
+    
+                        <div class="w-1/3 overflow-hidden lg:my-3 lg:px-3">
+                          <!-- Column Content -->
+                          <button class="w-full rounded-3xl py-3 px-4 bg-footer-purple text-white hover:bg-indigo-500 hover:text-gray-50 text-sm">
+    
+    
+                            <div class="flex flex-wrap overflow-hidden lg:-mx-2">
+    
+                                <div class="w-1/2   lg:px-3">
+                                  <!-- Column Content -->
+                                  James 
+                                </div>
+                              
+                                <div class="w-1/2 overflow-hidden lg:px-3">
+                                  <!-- Column Content -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41z"></path></svg>
+                                </div>
+                              
+                              </div>
+    
+    
+                           
+                          </button>
+                        </div>
+                      
+                        <div class="w-1/3 overflow-hidden lg:my-3 lg:px-3">
+                          <!-- Column Content -->
+    
+                          <button class="w-full rounded-3xl py-3 px-4 bg-footer-purple text-white hover:bg-indigo-500 hover:text-gray-50 text-sm">
+    
+    
+                            <div class="flex flex-wrap overflow-hidden lg:-mx-2">
+    
+                                <div class="w-1/2  lg:px-3">
+                                  <!-- Column Content -->
+                                  Andrew 
+                                </div>
+                              
+                                <div class="w-1/2 overflow-hidden lg:px-3">
+                                  <!-- Column Content -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41z"></path></svg>
+                                </div>
+                              
+                              </div>
+    
+                         
+                          </button>
+        
+                        </div>
+    
+    
+    
+    
+    
+                        <div class="w-1/3 overflow-hidden pt-5 pl-24  ">
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"></path></svg>
+                    </div>
+                      </div>
+    
+    
+                      
+    
+                   
+    
+                     
+                  
+                     <!-- Line -->
+                <div class="h-0.5 bg-gray-100 w-full mt-5"> </div>
+    
+                    <!--Login area from codepen-->
+    
+                    <div class="mt-8">
+    
+                        <div class="">
+                            <div>
+                              <label for="email" class="block text-sm font-medium leading-5 text-gray-700">
+    
+                                <div class="flex flex-wrap overflow-hidden lg:-mx-32">
+    
+                                    <div class="w-1/2 overflow-hidden lg:px-32">
+                                      <!-- Column Content -->
+                                      April 2022
+                                    </div>
+                                  
+                                    <div class="w-1/2 overflow-hidden  lg:px-24">
+                                      <!-- Column Content -->
+    
+                                      <div class="flex flex-wrap overflow-hidden">
+    
+                                        <div class="w-1/2 overflow-hidden">
+                                          <!-- Column Content -->
+    
+                                          <p class="text-gray-400 cursor-pointer">- 2 +</p>
+                                        </div>
+                                      
+                                        <div class="w-1/2 overflow-hidden">
+                                          <!-- Column Content -->
+                                          534 dkk
+                                        </div>
+                                      
+                                      </div>
+                                    </div>
+                                  
+                                  </div>
+    
+                                
+                              </label>
+                              
+                            </div>
+    
+                              <!-- Line -->
+                <div class="h-0.5 bg-gray-100 w-full mt-5"> </div>
+                
+                            <div class="mt-6">
+                                <label for="email" class="block text-sm font-medium leading-5 text-gray-700">
+    
+                                    <div class="flex flex-wrap overflow-hidden lg:-mx-32">
+        
+                                        <div class="w-1/2 overflow-hidden lg:px-32">
+                                          <!-- Column Content -->
+                                          Maj 2022
+                                        </div>
+                                      
+                                        <div class="w-1/2 overflow-hidden  lg:px-24">
+                                          <!-- Column Content -->
+        
+                                          <div class="flex flex-wrap overflow-hidden">
+        
+                                            <div class="w-1/2 overflow-hidden">
+                                              <!-- Column Content -->
+        
+                                              <p class="text-gray-400 cursor-pointer">- 2 +</p>
+                                            </div>
+                                          
+                                            <div class="w-1/2 overflow-hidden">
+                                              <!-- Column Content -->
+                                              534 dkk
+                                            </div>
+                                          
+                                          </div>
+                                        </div>
+                                      
+                                      </div>
+        
+                                    
+                                  </label>
+                              
+                            </div>
+    
+                              <!-- Line -->
+                <div class="h-0.5 bg-gray-100 w-full mt-5"> </div>
+    
+                <div class="mt-6">
+                    <label for="email" class="block text-sm font-medium leading-5 text-gray-700">
+    
+                        <div class="flex flex-wrap overflow-hidden lg:-mx-32">
+    
+                            <div class="w-1/2 overflow-hidden lg:px-32">
+                              <!-- Column Content -->
+                              Juni 2022
+                            </div>
+                          
+                            <div class="w-1/2 overflow-hidden  lg:px-24">
+                              <!-- Column Content -->
+    
+                              <div class="flex flex-wrap overflow-hidden">
+    
+                                <div class="w-1/2 overflow-hidden">
+                                  <!-- Column Content -->
+    
+                                  <p class="text-gray-400">- 0 +</p>
+                                </div>
+                              
+                                <div class="w-1/2 overflow-hidden">
+                                  <!-- Column Content -->
+                                  0 dkk
+                                </div>
+                              
+                              </div>
+                            </div>
+                          
+                          </div>
+    
+                        
+                      </label>
+    
+                     <!-- Line -->
+                <div class="h-0.5 bg-gray-100 w-full mt-5"> </div>
+                    
+                  </div>
+    
+                  <div class="mt-6">
+                    <label for="email" class="block text-sm font-medium leading-5 text-gray-700">
+    
+                        <div class="flex flex-wrap overflow-hidden lg:-mx-32">
+    
+                            <div class="w-1/2 overflow-hidden lg:px-32">
+                              <!-- Column Content -->
+                              Juli 2022
+                            </div>
+                          
+                            <div class="w-1/2 overflow-hidden  lg:px-24">
+                              <!-- Column Content -->
+    
+                              <div class="flex flex-wrap overflow-hidden">
+    
+                                <div class="w-1/2 overflow-hidden">
+                                  <!-- Column Content -->
+    
+                                  <p class="text-gray-400">- 0 +</p>
+                                </div>
+                              
+                                <div class="w-1/2 overflow-hidden">
+                                  <!-- Column Content -->
+                                  0 dkk
+                                </div>
+                              
+                              </div>
+                            </div>
+                          
+                          </div>
+    
+                        
+                      </label>
+    
+                     <!-- Line -->
+                <div class="h-0.5 bg-gray-100 w-full mt-5"> </div>
+                    
+                  </div>
+                
+                            <div class="mt-6 flex items-center justify-between">
+                              <div class="flex items-center">
+                                
+                                
+                              </div>
+                
+                              
+                            </div>
+                            
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+    
+    
+                      <div class="flex flex-wrap overflow-hidden">
+    
+                        <div class="w-1/2 overflow-hidden ">
+                          <!-- Column Content -->
+                          <p class="text-footer-purple">Total</p>
+                        </div>
+                      
+                        <div class="w-1/2 overflow-hidden ">
+                          <!-- Column Content -->
+    
+                          <p class="text-black ">1068 dkk</p>
+    
+                        </div>
+                      
+                      </div>
+                  
+    
+          
+                <!-- Button -->
+                <button class="mt-10 rounded-3xl py-3 px-4 bg-footer-purple text-white hover:bg-indigo-500 hover:text-gray-50 text-sm">
+                  Betal
+                </button>
+          
+            
+          
+               
+    
+               
+          
+              </div>
+          
+         
+          
+               
+          
+            
+          
+            </card>
+          
+          </div>
+    
+        
+    
+    
+      
+    
+    
+      <div class="w-full overflow-hidden lg:w-1/2 mt-20 ml-14">
+           <!--food image-->
+    
+           
+    
+            <img src="img/food10.png" alt="food"/>
+    
+         
+      </div>
+    
+    </div>
+      
+       
+    
+           
+    
+          
+        
+    
+        <!-- body ends here -->
+
+        <!-- footer starts here -->
+     
+    <footer class="footer p-20 text-base-content bg-footer-purple">
+        <div class="invisible md:visible ml-20">
+        <img width="90" height="90" viewBox="0 0 24 24" src="img/logo_white_strokes.png" alt="picture" />
+        </div>
+        <div class="text-white -mt-44 md:-mt-0">
+        <span class="text-xl font-extralight">Har du spørgsmal?</span>
+        <p class="pb-4 font-extralight">Send os gerne dine spørgsmal eller tilbagemeldinger.</p>
+        <a href="#" class="bg-white hover:bg-gray-200 text-black text-center font-bold text-xs py-3 px-7 rounded-full">
+        Skriv til os
+        </a>
+        </div>
+        <div class="text-white font-extralight -mt-14 md:-mt-0">
+        <span class="text-xl">Kontakt</span>
+        <p>Skolemad ApS</p>
+        <p>Klaringen 15, 4174 Jystrup</p>
+        <p>+45 70222910</p>
+        <p>post@skolemad</p>
+        </div>
+        
+        </footer>
+    
+  
+      <!-- footer ends here -->
+  
+      <script type="module" src="index.js"></script>
+    </body>
+  </html>
+  
+    
