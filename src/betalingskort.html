@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skolemad</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+    <!-- Navigation starts here -->
+    
+  
+      <div class="flex p-4 navbar-end w-full  ">
+        <div class="flex-1 justify-start">
+          <a href="index.html">
+            <img src="./img/logo_black_strokes.png" alt="logo" class="w-36" />
+            </a
+          >
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li class="invisible md:visible"><a href="login.html">Login</a></li>
+            <li>
+              <a href="madkalender.html">
+                <img src="./img/profile_icon.png" alt="logo" class="w-6 invisible md:visible mr-10" />
+              </a>
+            </li>
+  
+            <li class="" tabindex="0">
+              <a>
+                <div class="pr-16 ">
+                  <i class="menuIcon material-icons md:mr-0 -mr-28">menu</i>
+                </div>
+              </a>
+            
+              <ul class="bg-base-100 p-2 z-50 ">
+                <li class="md:invisible hover:text-footer-purple"><a href="./madkalender.html">Profil</a></li>
+                <li class="md:invisible hover:text-footer-purple"><a href="login.html">Login</a></li>
+                <li class="md:-mt-24 hover:text-footer-purple"><a>Leverandør</a></li>
+                <li class=" hover:text-footer-purple"><a>Priser</a></li>
+                <li class=" hover:text-footer-purple"><a>Skoler</a></li>
+                <li class=" hover:text-footer-purple"><a href="indstillinger.html">Indstillinger</a></li>
+                <li class="hover:text-footer-purple"><a>Kontakt os</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Navigation ends here -->
+
+
+    <!-- body starts here -->
+  <body>
+
+
+<div class="flex flex-wrap overflow-hidden">
+
+  <div class="w-full overflow-hidden lg:w-5/12">
+
+    <div class="h-screen flex items-center ml-32 ">
+
+        <card class=" h-5/6 mt-20 sm:w-full overflow-scroll rounded-2xl border shadow-md flex flex-col p-5 bg-white">
+      
+          <!-- Top Section -->
+          <div class="flex flex-col">
+      
+            <!-- Login and Details -->
+
+            <div class="text-sm leading-5">
+                <a href="#" class="font-medium text-black hover:text-indigo-600 focus:outline-none focus:underline transition ease-in-out duration-150">
+                    👈 Tilbage til betalingsmetoder
+                </a>
+              </div>
+
+
+            <p class="text-xl md:text-lg text-center text-h1-and-buttons pt-10">Betalingskort</p>
+
+            
+        
+
+                <div class="mt-6">
+                
+                    <img src="./img/betalingskort.png" alt="betaling" class="relative w-28 m-auto " />
+
+                    <p class="mt-1 text-md font-light text-footer-purple pt-5 text-center "> 
+                        Beløb på 500,00 kr </p>
+
+                 <!-- Line -->
+            <div class="h-0.5 bg-gray-100 w-full mt-5"> </div>
+
+                <!--Login area from codepen-->
+
+                <div class="mt-8">
+
+                    <div class="">
+                      <form action="#" method="POST">
+                        <div>
+                          <label for="email" class="block text-sm font-medium leading-5 text-gray-700">
+                            Navn på kortet*
+                          </label>
+                          <div class="mt-1 ">
+                            <input required class="appearance-none block w-full px-1 py-1 border border-gray-300  placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-gray-500 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                          </div>
+                        </div>
+            
+                        <div class="mt-6">
+                          <label for="password" class="block text-sm font-medium leading-5 text-gray-700">
+                            Kort nummer*
+                          </label>
+                          <div class="mt-1 ">
+                            <input required class="appearance-none block w-full px-1 py-1 border border-gray-300  placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-gray-500 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                          </div>
+                        </div>
+
+                        <div class="mt-6">
+                            <label for="password" class="block text-sm font-medium leading-5 text-gray-700">
+                              Gyldigt til*
+                            </label>
+                            <div class="mt-1 ">
+                                <input required class="appearance-none block w-50 px-1 py-1 border border-gray-300  placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-gray-500 transition duration-150 ease-in-out sm:text-sm sm:leading-5" placeholder="MM/YY" />
+                              </div>
+                          </div>
+
+                          <div class="mt-6">
+                            <label for="password" class="block text-sm font-medium leading-5 text-gray-700">
+                              Kontrolcifrer*
+                            </label>
+                            <div class="mt-1 ">
+                                <input required class="appearance-none block w-50 px-1 py-1 border border-gray-300  placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-gray-500 transition duration-150 ease-in-out sm:text-sm sm:leading-5"  />
+                              </div>
+                          </div>
+            
+                        <div class="mt-6 flex items-center justify-between">
+                          <div class="flex items-center">
+                            <input id="remember_me" type="checkbox" class="form-checkbox h-4 w-4 text-footer-purple transition duration-150 ease-in-out" />
+                            <label for="remember_me" class="ml-2 block text-sm leading-5 text-black">
+                              Husk mig
+                            </label>
+                          </div>
+            
+                         
+                        </div>
+                        
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+              
+
+      
+            <!-- Button -->
+            <a href="madkalender.html">
+            <button class="mt-10 rounded-3xl py-3 px-4 bg-footer-purple text-white hover:bg-indigo-500 hover:text-gray-50 text-sm w-full"> 
+              Betal
+            </button></a>
+      
+        
+
+      
+          </div>
+      
+     
+      
+           
+      
+        
+      
+        </card>
+      
+      </div>
+
+    
+
+
+  </div>
+
+
+  <div class="w-full overflow-hidden lg:w-1/2 mt-20 ml-14">
+       <!--food image-->
+
+       
+
+        <img src="img/food10.png" alt="food"/>
+
+     
+  </div>
+
+</div>
+  
+   
+
+       
+
+      
+    
+
+    <!-- body ends here -->
+
+    <!-- footer starts here -->
+     
+    <footer class="footer p-20 text-base-content bg-footer-purple">
+      <div class="invisible md:visible ml-20">
+      <img width="90" height="90" viewBox="0 0 24 24" src="img/logo_white_strokes.png" alt="picture" />
+      </div>
+      <div class="text-white -mt-44 md:-mt-0">
+      <span class="text-xl font-extralight">Har du spørgsmal?</span>
+      <p class="pb-4 font-extralight">Send os gerne dine spørgsmal eller tilbagemeldinger.</p>
+      <a href="#" class="bg-white hover:bg-gray-200 text-black text-center font-bold text-xs py-3 px-7 rounded-full">
+      Skriv til os
+      </a>
+      </div>
+      <div class="text-white font-extralight -mt-14 md:-mt-0">
+      <span class="text-xl">Kontakt</span>
+      <p>Skolemad ApS</p>
+      <p>Klaringen 15, 4174 Jystrup</p>
+      <p>+45 70222910</p>
+      <p>post@skolemad</p>
+      </div>
+      
+      </footer>
+  
+
+    <!-- footer ends here -->
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
